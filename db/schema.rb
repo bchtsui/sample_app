@@ -13,6 +13,7 @@
 
 ActiveRecord::Schema.define(:version => 20130615141722) do
 
+
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"
